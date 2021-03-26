@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: rgb(247,247,247) !important; 
+}
+.bg-food{
+    background-color: #df5399 !important;
+    color:#fff !important;
+  }
+
+.bgc{
+    position: relative;
+    width:100%;
+    height: 600px;
+    background: url(../src/bg.jpg) center center / cover no-repeat;
+    
+    .head{
+        //position: absolute;
+        width: 250px;
+        height: 60px;
+        overflow: hidden;
+        background: url('../src/logo.png') no-repeat 30px 10px;
+        
+    }
+    .play-box{
+        
+        margin: 0 auto;
+        width:960px;
+        height: 540px;
+        video{
+        
+            width: 960px;
+        }
+    }
+
+}
+
+.like{
+    width: 1000px;
+    height:110px;
+    margin:0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    h2{
+        padding: 20px 0 0 20px;
+    }
+    div{
+        float: right;
+        button{
+            
+            margin: 5px 20px; 
+        }
+    }
+
+}
+.comment{
+    width: 1000px;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    h3{
+        padding: 20px 0 0 20px;
+    }
+    .user{
+        display: flex;
+        .pic{
+            display: inline-block;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: url("../src/user.jpg");
+            background-size: contain;
+            margin: 15px 32px 0 32px;
+            
+        }
+        textarea{
+            resize: none; 
+            flex:1;
+            margin: 15px 30px 20px 0;
+            height: 100px;
+        }
+
+    }
+    .post{
+        height:70px;
+        button{
+            float: right;
+            margin-right: 30px;
+        }
+    }
+
+
+}
+
+.newComment{
+position: relative;
+    img{
+        line-height: 76px;
+        // vertical-align: middle;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: url("../src/user.jpg");
+        background-size: contain;
+        margin: 0px 32px 0 32px;
+    }
+    .content{
+        vertical-align: middle;
+        line-height: 1.8;
+        margin-top:15px;
+        display: inline-block;
+        width:640px;
+        .name{
+            font-size: 14px;
+            color: #333;
+            font-weight: 600;
+        }
+        .time{
+            font-size: 12px;
+            color: #999;
+        }
+        p{
+            font-size: 14px;
+            color: #333;
+        }
+    }
+    .reply{
+        position: absolute;
+        right: 30px;
+        top:15px;
+        display: inline-block;
+    }
+
+}
+.end{
+    text-align: center;
+    font-size: 14px;
+    color:#aaa;
+    font-weight: 600;
+    p{
+        line-height: 60px;
+    }
+}

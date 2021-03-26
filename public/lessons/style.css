@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f7f7f7 !important;
+}
+.bgc {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url(../src/bg.jpg) center center / cover no-repeat;
+}
+.bgc .head {
+  height: 60px;
+  overflow: hidden;
+}
+.bgc .play-box {
+  margin: 0 auto;
+  width: 960px;
+  height: 540px;
+}
+.bgc .play-box video {
+  z-index: 999;
+  width: 960px;
+}
+.like {
+  width: 1000px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+}
+.like h2 {
+  padding: 20px 0 0 20px;
+}
+.like div {
+  float: right;
+}
+.like div button {
+  margin: 5px 20px;
+}
+.comment {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+.comment h3 {
+  padding: 20px 0 0 20px;
+}
+.comment .user {
+  display: flex;
+}
+.comment .user .pic {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: url("../src/user.jpg");
+  background-size: contain;
+  margin: 15px 32px 0 32px;
+}
+.comment .user textarea {
+  resize: none;
+  flex: 1;
+  margin: 15px 30px 20px 0;
+  height: 100px;
+}
+.comment .post {
+  height: 70px;
+}
+.comment .post button {
+  float: right;
+  margin-right: 30px;
+}
+.divide {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  height: 1px;
+  background-color: #ccc;
+}
+.newComment img {
+  line-height: 76px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: url("../src/user.jpg");
+  background-size: contain;
+  margin: 0px 32px 0 32px;
+}
+.newComment .content {
+  vertical-align: middle;
+  line-height: 1.8;
+  margin-top: 15px;
+  display: inline-block;
+  width: 740px;
+}
+.newComment .content .name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+.newComment .content .time {
+  font-size: 12px;
+  color: #999;
+}
+.newComment .content p {
+  font-size: 14px;
+  color: #333;
+}
+.newComment .reply {
+  margin-top: 15px;
+  display: inline-block;
+}
+.end {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 600;
+}
+.end p {
+  line-height: 60px;
+}
